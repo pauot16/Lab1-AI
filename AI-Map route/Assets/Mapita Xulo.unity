@@ -3389,6 +3389,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &597328538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597328539}
+  m_Layer: 0
+  m_Name: Robar (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597328539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597328538}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.59, y: 10.23, z: -12.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &616432431
 GameObject:
   m_ObjectHideFlags: 0
@@ -5682,6 +5713,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -35.549, y: 116.246, z: 0.803}
+--- !u!1 &1176539565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176539566}
+  m_Layer: 0
+  m_Name: SafePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176539566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176539565}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.25, y: 20.77, z: -28.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1189880520
 GameObject:
   m_ObjectHideFlags: 0
@@ -5793,6 +5855,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 129.273, z: 0}
+--- !u!1 &1197327807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197327808}
+  m_Layer: 0
+  m_Name: Robar
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1197327808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197327807}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.7, y: 31.06, z: 2.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1270252879
 GameObject:
   m_ObjectHideFlags: 0
@@ -6936,8 +7029,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 20
+  m_Acceleration: 15
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -7036,7 +7129,7 @@ Transform:
   m_GameObject: {fileID: 1530579789}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.1, y: 1.91, z: 36}
+  m_LocalPosition: {x: 5.3, y: 31.74, z: 7.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7057,6 +7150,8 @@ MonoBehaviour:
   m_Graph: {fileID: -7480306109619764273, guid: c8640591f83ee2d4cba4d7d0d7c6cd61, type: 2}
   m_BlackboardVariableOverridesList:
   - rid: 1983929219342926061
+  - rid: 5473256858590904388
+  - rid: 5473256858590904389
   m_OriginalGraph: {fileID: -7480306109619764273, guid: c8640591f83ee2d4cba4d7d0d7c6cd61, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -7071,6 +7166,22 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 1530579789}
+    - rid: 5473256858590904388
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 5294216112581398197
+          m_Value1: 5776641352113774099
+        Name: The other
+        m_Value: {fileID: 2109119679}
+    - rid: 5473256858590904389
+      type: {class: 'BlackboardVariable`1[[System.Single, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 9226351666910446845
+          m_Value1: 15213813988875818817
+        Name: Distance
+        m_Value: 12
 --- !u!1 &1550064064
 GameObject:
   m_ObjectHideFlags: 0
@@ -7446,6 +7557,37 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 47.9, y: 5.05, z: -18.7}
   m_LocalScale: {x: 21.95897, y: 9.637445, z: 27.493078}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1628028167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1628028168}
+  m_Layer: 0
+  m_Name: Robar (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1628028168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628028167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.22, y: 25.741, z: -36.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -9578,8 +9720,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
+  m_Speed: 22
+  m_Acceleration: 12
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
@@ -9678,7 +9820,7 @@ Transform:
   m_GameObject: {fileID: 2109119679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.5, y: 1.91, z: 12.6}
+  m_LocalPosition: {x: 50.02, y: 11.43, z: -12.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9699,6 +9841,10 @@ MonoBehaviour:
   m_Graph: {fileID: 1199184225297671561, guid: 5228b5c5cedb6e144880b9177f90e3cb, type: 2}
   m_BlackboardVariableOverridesList:
   - rid: 1983929219342926062
+  - rid: 5473256858590904385
+  - rid: 5473256858590904386
+  - rid: 5473256858590904387
+  - rid: 5473256858590904500
   m_OriginalGraph: {fileID: 1199184225297671561, guid: 5228b5c5cedb6e144880b9177f90e3cb, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -9713,6 +9859,41 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 2109119679}
+    - rid: 5473256858590904385
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 6875263963541724673
+          m_Value1: 14602196566444324264
+        Name: TheOther
+        m_Value: {fileID: 1530579789}
+    - rid: 5473256858590904386
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 7582574003225909220
+          m_Value1: 12388072366151793701
+        Name: rob
+        m_Value: {fileID: 1197327807}
+    - rid: 5473256858590904387
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 9867057998719450078
+          m_Value1: 12560128736861350487
+        Name: SafePoint
+        m_Value: {fileID: 1176539565}
+    - rid: 5473256858590904500
+      type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 13589537804644344973
+          m_Value1: 138971220032658400
+        Name: way
+        m_Value:
+        - {fileID: 1197327807}
+        - {fileID: 1628028167}
+        - {fileID: 597328538}
 --- !u!1 &2116839041
 GameObject:
   m_ObjectHideFlags: 0
@@ -9916,3 +10097,7 @@ SceneRoots:
   - {fileID: 945918272}
   - {fileID: 1876138181}
   - {fileID: 997512154}
+  - {fileID: 1197327808}
+  - {fileID: 1628028168}
+  - {fileID: 597328539}
+  - {fileID: 1176539566}
