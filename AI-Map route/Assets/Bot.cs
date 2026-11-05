@@ -26,13 +26,11 @@ public class Bot : MonoBehaviour
     int waypointIndex = 0;
     bool patrolling = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         agent = this.GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (target == null)
@@ -95,7 +93,7 @@ public class Bot : MonoBehaviour
             return;
         }
 
-        // Al volver a la ruta, retoma el waypoint en el que iba
+        // Al volver a la ruta, vuelve al el waypoint en el que iba
         if (!patrolling)
         {
             patrolling = true;
@@ -103,7 +101,7 @@ public class Bot : MonoBehaviour
             return;
         }
 
-        // Al llegar al waypoint, pasa al siguiente (en bucle)
+        // Al llegar al waypoint, pasa al siguiente
         if (!agent.pathPending && agent.remainingDistance <= waypointTolerance)
         {
             waypointIndex = (waypointIndex + 1) % waypoints.Length;
